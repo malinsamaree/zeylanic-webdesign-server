@@ -127,6 +127,7 @@ var users = {
   }
 };
 console.log(window.location);
+console.log("added new to test");
 var pathName = window.location.pathname;
 var pathNameSections = window.location.pathname.split("/");
 var userUrl = pathNameSections[1];

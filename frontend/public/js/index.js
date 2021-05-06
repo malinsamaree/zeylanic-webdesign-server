@@ -13,6 +13,7 @@ const users = {
 };
 
 console.log(window.location);
+console.log("added new to test");
 const pathName = window.location.pathname;
 const pathNameSections = window.location.pathname.split("/");
 const userUrl = pathNameSections[1];
